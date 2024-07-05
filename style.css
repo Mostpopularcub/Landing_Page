@@ -1,0 +1,69 @@
+.header {
+  color: white;
+  background-color: #1F2937;
+}
+
+.logo-and-links {
+    display:flex;
+    justify-content: space-between;
+    padding:15px;
+}
+
+
+.logo{
+    display:flex;
+    margin: 0;
+    padding: 0;
+    margin-left:50px;
+    width:50%;
+}
+
+h1{
+  margin:0;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;  
+    gap:10px;
+  }
+
+.blocks {
+    display:flex;
+    padding:15px;
+}
+
+.left-block {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left:50px;
+    width: 50%;
+}
+
+button {
+  width: 100px;
+}
+
+.right-block {
+  display:flex;
+}
+
+a:link { 
+    text-decoration: none;
+    color: white;
+  } 
+  a:visited { 
+    text-decoration: none;
+    color: white; 
+  } 
+  a:hover { 
+    text-decoration: none;
+    color: white; 
+  } 
+  a:active { 
+    text-decoration: none;
+    color: white; 
+  }
