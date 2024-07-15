@@ -67,3 +67,16 @@ a:link {
     text-decoration: none;
     color: white; 
   }
+
+  .containers{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .box{
+    flex-direction: column;
+    text-align: center;
+    width: 200px;
+    margin-left: 26px;
+    margin-right: 26px;
+  }
