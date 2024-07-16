@@ -1,4 +1,9 @@
-.header {
+.whole-page{
+  display: flex;
+  flex-direction: column;
+}
+
+.part-one {
   color: white;
   background-color: #1F2937;
 }
@@ -45,11 +50,16 @@ ul {
 
 button {
   width: 100px;
+  background-color: #3882F6;
+  color:white;
+  font-weight: bold;
 }
 
 .right-block {
   display:flex;
   text-align: center;
+  height: 100%;
+  width:100%;
 }
 
 a:link {
@@ -91,7 +101,7 @@ a:link {
     border-style: solid;
     border-color: blue;
     border-radius: 20%;
-    display: flex;
     height: 100%;
     width: 100%;
   }
+
