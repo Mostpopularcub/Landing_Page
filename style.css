@@ -20,7 +20,7 @@
     display:flex;
     margin: 0;
     padding: 0;
-    margin-left:50px;
+    margin-left:75px;
     width:50%;
 }
 
@@ -28,24 +28,29 @@ h1{
   margin:0;
 }
 
+.links{
+  margin-right: 75px;
+}
+
 ul {
     display: flex;
     list-style-type: none;
     padding: 0;
     margin: 0;  
-    gap:10px;
+    gap:15px;
   }
 
 .blocks {
     display:flex;
     padding:15px;
+    margin-bottom: 40px;
 }
 
 .left-block {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-left:50px;
+    margin-left:75px;
     width: 50%;
 }
 
@@ -85,6 +90,8 @@ a:link {
 
   h2{
     text-align: center;
+    margin: 0;
+    padding:15px;
   }
   
   .box{
@@ -106,15 +113,10 @@ a:link {
 
 .part-three{
   display:flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 15px;
+  background-color: E5E7EB;
 }
 
-.squarl{
-  display: flex;
-  border: 5px;
-  border-style: solid;
-  border-color: green;
-  border-radius: 20%;
-  
-}
