@@ -57,8 +57,9 @@ ul {
 button {
   width: 100px;
   background-color: #3882F6;
-  color:white;7
+  color:white;
   font-weight: bold;
+  border-radius: 5px;
 }
 
 .right-block {
@@ -120,5 +121,31 @@ a:link {
 }
 
 .author{
+  width: 100%;
   text-align: right;
+  margin-right: 300px;
+}
+
+.part-four{
+  padding: 50px 75px 50px 75px;
+}
+
+.bottom-blue{
+  background-color: #3882F6;
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+  padding:25px 40px 25px 40px;
+  color:white;
+  border-radius: 5px;
+}
+
+.part-five{
+  background-color: #1F2937;
+  color:white;
+  padding:15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
