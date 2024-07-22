@@ -83,6 +83,10 @@ a:link {
     color: white; 
   }
 
+  .part-two{
+    margin-bottom: 40px;
+  }
+
   .containers{
     display: flex;
     justify-content: center;
@@ -102,21 +106,13 @@ a:link {
     margin-right: 26px;
   }
 
-  .square{
-    display: flex;
-    border: 5px;
-    border-style: solid;
-    border-color: blue;
-    border-radius: 20%;
-    
-  }
 
 .part-three{
   display:flex;
   flex-direction: column;
-  justify-content: center;
+  
   align-items: center;
   padding: 15px;
-  background-color: E5E7EB;
+  background-color: gray;
 }
 
